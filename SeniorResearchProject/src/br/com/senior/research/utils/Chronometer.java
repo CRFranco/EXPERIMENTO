@@ -11,7 +11,9 @@ package br.com.senior.research.utils;
  * @author Lilian Ketlyn
  * @author Rubem Kalebe
  * @version 04.03.2015
- * @link https://github.com/jefferssongalvao/ParnatalOnline/blob/master/src/Chronometer.java 
+ * <a href=https://github.com/jefferssongalvao/ParnatalOnline/blob/master/src/Chronometer.java>Chronometer</a>
+ * 
+ *  
 */
 public final class Chronometer {
 

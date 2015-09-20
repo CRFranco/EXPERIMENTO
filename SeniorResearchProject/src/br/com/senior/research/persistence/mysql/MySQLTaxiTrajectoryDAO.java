@@ -32,15 +32,15 @@ public class MySQLTaxiTrajectoryDAO implements Persistible<List<TaxiTrajectory>>
 	
 	/**
 	 * Método para persistir a lista de objetos no MYSQL
-	 * @param a lista de objetos gerada com base nos arquivos do diretorio files
+	 * @param list - a lista de objetos gerada com base nos arquivos do diretorio files
 	 * TODO aplicar o padrão Visitor no processo de persistencia
 	 */
 	@Override
-	public void save(List<TaxiTrajectory> lista) {
+	public void save(List<TaxiTrajectory> list) {
 
 		tx.begin();
 
-		for (TaxiTrajectory taxiTrajectory : lista)
+		for (TaxiTrajectory taxiTrajectory : list)
 			em.persist(taxiTrajectory);
 		tx.commit();
 
@@ -49,7 +49,7 @@ public class MySQLTaxiTrajectoryDAO implements Persistible<List<TaxiTrajectory>>
 	
 	/**
 	 * Método para buscar um conjunto aleatório de objetos no MYSQL
-	 * @param a lista de objetos gerada aleatoriamente
+	 * @param aleatoryList - a lista de objetos gerada aleatoriamente
 	 * TODO aplicar o padrão Visitor no processo de query
 	 */
 	@Override

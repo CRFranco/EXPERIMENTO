@@ -5,7 +5,7 @@ package br.com.senior.research.domain;
  * Interface que serve como abstração para os métodos de persistência
  * @author Cristiano Roberto Franco
  *
- * @param <T>
+ * @param <T> qualquer entidade a ser persistida
  */
 public interface Persistible <T>{
 

@@ -46,9 +46,9 @@ public class FileUtils {
 	/**
 	 * Método que faz o parse dos dados do arquivo para objetos, gerando uma lista com
 	 * todos que forem encontrados nos arquivos dentro do diretorio files
-	 * @param fileName
+	 * @param fileName - nome do arquivo
 	 * @return lista de objetos com as TaxiTrajectory para inserção nos bancos
-	 * @throws FileNotFoundException
+	 * @throws FileNotFoundException - caso não haja arquivo no diretório
 	 */
 	public List<TaxiTrajectory> readFile(String fileName) throws FileNotFoundException {
 		List<TaxiTrajectory> taxis = new ArrayList<>();

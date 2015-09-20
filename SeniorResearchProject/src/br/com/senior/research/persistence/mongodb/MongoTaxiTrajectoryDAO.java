@@ -40,8 +40,7 @@ public class MongoTaxiTrajectoryDAO implements
 	/**
 	 * Método para persistir a lista de objetos no MongoDB
 	 * 
-	 * @param a
-	 *            lista de objetos gerada com base nos arquivos do diretorio
+	 * @param list - a   lista de objetos gerada com base nos arquivos do diretorio
 	 *            files TODO aplicar o padrão Visitor no processo de
 	 *            persistencia
 	 */
@@ -62,8 +61,7 @@ public class MongoTaxiTrajectoryDAO implements
 	/**
 	 * Método para buscar um conjunto aleatório de objetos no MYSQL
 	 * 
-	 * @param a
-	 *            lista de objetos gerada aleatoriamente TODO aplicar o padrão
+	 * @param list - a lista de objetos gerada aleatoriamente TODO aplicar o padrão
 	 *            Visitor no processo de query
 	 */
 	@Override

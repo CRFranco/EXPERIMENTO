@@ -23,7 +23,7 @@ public class Experiment {
 	
 	/**
 	 * Construtor que recebe por injeção o DAO específico para o banco de dados
-	 * @param tDAO
+	 * @param tDAO dao injetado para o banco de dados específico
 	 */
 	public Experiment(Persistible<List<TaxiTrajectory>> tDAO){
 		this.tDAO = tDAO;
