@@ -1,0 +1,6 @@
+
+br.com.senior.research.domain
+br.com.senior.research.experiments
+br.com.senior.research.persistence.mongodb
+br.com.senior.research.persistence.mysql
+br.com.senior.research.utils
