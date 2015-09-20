@@ -18,7 +18,7 @@ public class PersistenceUtil {
 	}
 	/**
 	 * Singleton do EntityManager usado pelo JPA
-	 * @return entity manager
+	 * @return entity manager 
 	 */
 	public static EntityManager getEntityManager() {
 		if (emf == null) {
